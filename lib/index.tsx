@@ -1,3 +1,12 @@
-import Button from './Button/Button'
+import * as React from 'react'
+import ReactDOM from 'react-dom'
 
-export {Button}
+import Icon from './Icon/Icon'
+
+ReactDOM.render(
+  <div>
+    <Icon name="close"/>
+    <Icon name="down"/>
+  </div> ,
+  document.querySelector('#root')
+)
