@@ -21,6 +21,7 @@ module.exports = {
     },
     plugins: [
         new HtmlWebpackPlugin({
+            title: 'sea-monster-ui',
             template: 'index.html'
         })
     ]
