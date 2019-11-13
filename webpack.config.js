@@ -11,6 +11,9 @@ module.exports = {
         library: 'sea-monster-ui',
         libraryTarget: 'umd',
     },
+    resolve: {
+        extensions: ['.ts', '.tsx', '.js', '.jsx']
+    },
     module: {
         rules: [
             {
