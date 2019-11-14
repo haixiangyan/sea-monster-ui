@@ -9,8 +9,7 @@ const fn: React.MouseEventHandler = (e) => {
 
 ReactDOM.render(
   <div>
-    <Icon onClick={fn} name="close"/>
-    <Icon name="down"/>
+    <Icon name="close" onClick={fn} onMouseMove={fn}/>
   </div> ,
   document.querySelector('#root')
 )
